@@ -37,7 +37,7 @@ const Artists = () => {
                     </button>
                 </Link>
             </div>
-            <div className="flex flex-col justify-center items-center min-h-screen bg-blue-500 pt-10">
+            <div className="flex flex-col justify-center items-center min-h-screen bg-blue-500 pt-5">
                 <div className="text-5xl font-bold mb-8">All Artists:</div>
                 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8 p-5">
                     {artists.map((artist) => (

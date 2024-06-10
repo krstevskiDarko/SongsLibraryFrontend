@@ -29,7 +29,7 @@ const Songs = () => {
                     </button>
                 </Link>
             </div>
-            <div className="bg-blue-500 flex justify-center items-center pt-20">
+            <div className="bg-blue-500 flex justify-center items-center pt-5">
                 <Link to={"/songs/addSong"}>
                     <button className={"bg-green-500 font-bold hover:bg-green-700 p-6 rounded-2xl"}>
                         Add New Song
